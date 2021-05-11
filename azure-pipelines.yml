@@ -20,7 +20,7 @@ steps:
 
 - task: AzureKeyVault@1
   inputs:
-    azureSubscription: 'test2'
+    azureSubscription: 'KeyVaultManagedIdentity'
     KeyVaultName: 'fongkiszKV'
     SecretsFilter: '*'
     RunAsPreJob: true
